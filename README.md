@@ -8,5 +8,13 @@
 ### Public Functions
 
 * `CwdBasename() string`
+* `PathExists(path string) bool`
+
+* `PathLs(basePath string) (map[int]string, error)`
+* `PathLsN(basePath string, depth int) (map[int]string, error)`
+* `PathLsType(basePath string, filetypes []string) (map[int]string, error)`
+* `PathLsNType(basePath string, depth int, filetypes []string) (map[int]string, error)`
+* `PathLsTypeNot(basePath string, filetypes []string) (map[int]string, error)`
+* `PathLsNTypeNot(basePath string, depth int, filetypes []string) (map[int]string, error)`
 
 ---
