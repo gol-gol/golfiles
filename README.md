@@ -17,4 +17,10 @@
 * `PathLsTypeNot(basePath string, filetypes []string) (map[int]string, error)`
 * `PathLsNTypeNot(basePath string, depth int, filetypes []string) (map[int]string, error)`
 
+* `MkDirWithPermission(dirpath string, mode os.FileMode) error`
+* `MkDir(dirpath string) error`
+* `MoveFile(src, dst string) error`
+* `CopyFile(src, dst string) error`
+
+
 ---
