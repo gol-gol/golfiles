@@ -22,5 +22,10 @@
 * `MoveFile(src, dst string) error`
 * `CopyFile(src, dst string) error`
 
+* `CreateBinaryFile(filename string, blob []byte) error`
+* `AppendBinaryToFile(filename string, blob []byte) error`
+* `AppendToFile(filename, txt string) error`
+* `ReadBinaryFile(filepath string) ([]byte, error)`
+* `ReadFileBuffer(filepath string) (*bytes.Buffer, error)`
 
 ---
